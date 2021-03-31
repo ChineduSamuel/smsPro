@@ -1,0 +1,42 @@
+.btn {
+    padding: 1rem 3rem;
+    width: 12rem;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 3px;
+    height: 4.1rem;
+
+    &-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    &:hover {
+        color: white;
+    }
+}
+
+.btn-template {
+    width: 160px;
+    border: 1px solid #2214DA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 1.2rem 25px;
+
+    &-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2214DA;
+    }
+}

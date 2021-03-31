@@ -1,0 +1,46 @@
+.sub-text {
+    position: relative;
+    width: 100%;
+}
+
+.img-right {
+    position: absolute;
+    top: 30px;
+    right: 38px;
+}
+
+.graph {
+    background-color: white;
+    height: 546px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 980px;
+    margin-top: 8rem;
+
+    .graph-header {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.4px;
+        color: #252733;
+    }
+
+    .graph-sub-header {
+        padding: .1rem 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: 0.1px;
+
+        /* grayscale / gray */
+
+        color: #9FA2B4;
+    }
+}

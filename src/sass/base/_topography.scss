@@ -1,0 +1,138 @@
+.heading-primary {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 28px;
+    color: #2214DA;
+
+
+    &-main {
+        display: block;
+        font-size: 6rem;
+        letter-spacing: 3.5rem;
+        font-weight: 400;
+        animation: moveInLeft 1s;
+        padding-bottom: 5rem;
+    }
+
+    &-sub {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.4rem;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: 0.003em;
+        color: #252733;
+    }
+
+    &-navs {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 16px;
+        text-align: center;
+        color: #6E84FF;
+    }
+    &-naira {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.9rem;
+        line-height: 16px;
+        color: #2214DA;
+    }
+    &-units {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 16px;
+        color: #030026;
+    }
+}
+.heading-title {
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    padding-left: 10rem;
+    text-align: left;
+    letter-spacing: 0.3px;
+
+    /* grayscale / black */
+
+    color: #252733;
+}
+
+.heading-general{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: 0.3px;
+
+    /* grayscale / black */
+
+    color: #252733;
+
+}
+.heading-secondary {}
+
+.heading-tetiary {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: #030026;
+
+}
+
+.dashboard-paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    color: #030026;
+}
+
+.side-bar-sub-main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+    padding-left: 14px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2E3A59;
+}
+
+body {
+    line-height: 1.9rem;
+    font-family: "Roboto"sans-serif;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}

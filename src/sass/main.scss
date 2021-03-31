@@ -1,0 +1,29 @@
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+//base
+@import "base/base";
+@import "base/animation";
+@import "base/topography";
+@import "base/utilities";
+
+//layouts
+@import "layouts/headers";
+@import "layouts/sidebar.scss";
+@import "layouts/main";
+
+//components
+@import "components/sidebarbox.scss";
+@import "components/forms";
+@import "components/btn";
+@import "components/graph";
+@import "components/card_boxes";
+//pages
+@import "pages/home";
+@import "pages/grid";
+@import "pages/about-us";
+@import "pages/dashboard";
+@import "pages/campaign";
+
