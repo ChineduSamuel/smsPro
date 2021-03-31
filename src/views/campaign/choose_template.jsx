@@ -1,9 +1,10 @@
 import React from "react";
 import FormSelect from '../../components/Forms/FormSelect'
 import CardTemplate from '../../components/Cards/TemplateCards'
+import MainLayout from "../../components/MainLayout/MainLayout";
 export default function ChooseTemplate() {
   return (
-    <div>
+    <MainLayout>
        <div className="Dashboard-page">
       <div className="text-right">
                <h4>Home / Choose Template</h4>
@@ -22,7 +23,7 @@ export default function ChooseTemplate() {
                 <div className="card-boxes mt-5">
                     <div className="row">
                         <div className="col-1-of-3">
-                            <p>55</p>
+                            <p>Card Boxes</p>
                             {/* <div className="card-block">
                                 <div className="top-box"></div>
                                 <div className="box-card">
@@ -31,11 +32,11 @@ export default function ChooseTemplate() {
                             </div> */}
                         </div>
                         <div className="col-1-of-3">
-                                <p>Card 1</p>
+                                <p>Card Boxes</p>
                             
                         </div>
                         <div className="col-1-of-3">
-                                <p>Card 1</p>
+                                <p>Card Boxes</p>
                         </div>
                     </div>
                 </div>
@@ -46,6 +47,6 @@ export default function ChooseTemplate() {
       </div>
 
 
-    </div>
+    </MainLayout>
   );
 }
