@@ -1,36 +1,71 @@
-.temp{
-}
-
-.card-block {
-  width: 282.19px;
-  position: relative;
-  height: 416px;
-  position: absolute;
-width: 282.19px;
-height: 416px;
-left: 248px;
-top: 276px;
-}
 
 
-.card-box-top {
-    position: absolute;
-    width: 268.25px;
-    height: 193.14px;
-    left: 255px;
-    top: 277.43px;
-    
-    background: #FFFFFF;
-    border-radius: 2px;
-}
-
-.card-box-below {
-    position: absolute;
+.template-box {
+    position: relative;
     width: 282.19px;
-    height: 318px;
-    left: 248px;
-    top: 374px;
-    
-    background: rgba(197, 199, 205, 0.31);
-    border-radius: 2px;
+    height: 416px;
+    left: 0px;
+    top: 27px;
+
+    &-top {
+        position: absolute;
+        width: 268.25px;
+        height: 193.14px;
+        left: 7px;
+        top: -95px;
+        background: #FFFFFF;
+        border-radius: 2px;
+
+        .fore-title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.3px;
+            color: #252733;
+        }
+    }
+
+    &-below {
+        position: absolute;
+        width: 282.19px;
+        height: 318px;
+        left: 0px;
+        top: 114px;
+        background: rgba(197, 199, 205, 0.31);
+        border-radius: 2px;
+
+        .below-text {
+            position: absolute;
+            width: 126px;
+            height: 41px;
+            left:80px;
+            top: 122px;
+            text-align: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            /* or 157% */
+            
+            text-align: center;
+            letter-spacing: 0.3px;
+            
+            /* grayscale / black */
+            
+            color: #252733;
+        }
+    }
+
+    &-inner {
+        position: absolute;
+        width: 191px;
+        height: 118px;
+        left: 30px;
+        top: 60px;
+    }
 }

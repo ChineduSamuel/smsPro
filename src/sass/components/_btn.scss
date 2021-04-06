@@ -1,5 +1,5 @@
 .btn {
-    padding: 1rem 3rem;
+    padding: 1.2rem 3rem;
     width: 12rem;
     background: rgba(0, 0, 0, 0.37);
     border-radius: 3px;
@@ -8,14 +8,10 @@
     &-text {
         font-family: Roboto;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 14px;
         line-height: 16px;
-
-        /* identical to box height */
-
         text-align: center;
-
         color: #FFFFFF;
     }
 
@@ -39,4 +35,129 @@
         line-height: 16px;
         color: #2214DA;
     }
+
+    &:hover {
+        text-decoration: none;
+    }
 }
+
+
+.btn-box-template {
+    border: 1px solid #2214DA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: .6rem 4rem;
+    text-decoration: none;
+
+    &-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2214DA;
+    }
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.btn-create-template {
+
+
+    background: #fff;
+    padding: 1.2rem 4rem;
+    border: 1px solid #6E84FF;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6E84FF;
+
+}
+
+.btn-dark {
+
+    background: #291CDB;
+    padding: 1.2rem 4rem;
+    border: 1px solid #291CDB;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    &:hover{
+        background-color: #2214DA;
+    }
+
+}
+
+.btn-grey {
+    padding: 1.2rem 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 3px;
+}
+
+
+
+
+.btn-light {
+    border: 1px solid #2214DA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    background-color: white;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 14px;
+    padding: 1.3rem;
+    line-height: 16px;
+    color: #2214DA;
+    &:hover{
+        background-color: white;
+        color: #2214DA;
+        border: 1px solid #2214DA;
+
+
+    }
+    
+}
+
+.btn-green {
+    background: #24C28A;
+    border-radius: 3px;
+    border: 1px solid #24C28A;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: .4rem;
+    line-height: 16px;
+    color: #fff;
+}
+

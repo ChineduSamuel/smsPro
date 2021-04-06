@@ -36,6 +36,7 @@
         text-align: center;
         color: #6E84FF;
     }
+
     &-naira {
         font-family: Roboto;
         font-style: normal;
@@ -44,6 +45,7 @@
         line-height: 16px;
         color: #2214DA;
     }
+
     &-units {
         font-family: Roboto;
         font-style: normal;
@@ -53,8 +55,9 @@
         color: #030026;
     }
 }
+
 .heading-title {
-    
+
 
     font-family: Roboto;
     font-style: normal;
@@ -71,8 +74,8 @@
     color: #252733;
 }
 
-.heading-general{
-    
+.heading-general {
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -87,6 +90,7 @@
     color: #252733;
 
 }
+
 .heading-secondary {}
 
 .heading-tetiary {
@@ -128,6 +132,88 @@
     font-size: 20px;
     line-height: 23px;
     color: #2E3A59;
+}
+
+.text-general {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+.text-darky {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.003em;
+    color: #000000;
+}
+
+.lead {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+
+    color: #2214DA;
+}
+
+.text-light-general {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #2E3A59;
+}
+
+.text-general-feint {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+
+    color: #2E3A59;
+}
+
+.text-dark-sm {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.003em;
+
+    /* Black - Login Texts Colour - */
+
+    color: #000000;
+}
+
+.text-white {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    letter-spacing: 0.003em;
+
+    /* White fill */
+
+    color: #FFFFFF;
 }
 
 body {

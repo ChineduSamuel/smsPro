@@ -20,10 +20,14 @@
 @import "components/btn";
 @import "components/graph";
 @import "components/card_boxes";
+@import "components/table";
+@import "components/card.scss";
+@import "components/modal";
 //pages
 @import "pages/home";
 @import "pages/grid";
 @import "pages/about-us";
 @import "pages/dashboard";
 @import "pages/campaign";
+@import "pages/organization";
 
