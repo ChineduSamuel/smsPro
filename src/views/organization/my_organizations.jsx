@@ -7,16 +7,19 @@ export default function Organizations() {
     <>
       <div className="organization">
         <div className="card-area">
-            <div className="organizartion-history">
+            <div className="organization-history">
           <div className="d-flex justify-content-between align-items-center">
-            <p className="lead">Market Team Members</p>
+            <p className="text-darky">My Organizations</p>
             <i className="fa fa-chevron-up"></i>
           </div>
-          <p className="text-general">
-            Members added can send campaigns for the department
-          </p>
-       
-       
+      
+          <div className="text-general">
+              <p>Organizations : 5</p>
+              <p>No of Teams : 15</p>
+              <p>No of members: 45</p>
+              <p>No of SMS Sent : 124</p>
+
+          </div>
 
           <div className="pt-5">
               <Table />

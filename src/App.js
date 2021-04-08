@@ -9,6 +9,12 @@ import CreateOrganization from './views/organization/create_new'
 import Organization from  './views/organization/index'
 import Modal from './components/Modal/Modal'
 import Table from './components/Table/TableBordered'
+import InviteNew from './views/organization/invite_member'
+import Contacts from './views/contact/index'
+import ImportContacts from './views/contact/import_contact'
+import CustomerCategories from './views/contact/categories'
+
+
 import './sass/main.scss'
 
 
@@ -22,10 +28,17 @@ function App() {
             <Route exact path="/overview" children={Dashboard} />
             <Route exact path="/new_campaign" children={NewCampaign} />
             <Route exact path="/choose_template" component={ChooseTemplate} />
-            <Route exact path="/campaign_history" component={CampaignHistory} />
+            <Route exact path="/campaign_history" children={CampaignHistory} />
             <Route exact path="/create_organization" component={CreateOrganization} />
             <Route exact path="/organizations" component={Organization} />
-            <Route exact path="/table" component={Table} />
+            <Route exact path="/invite_member" component={InviteNew} />
+            <Route exact path="/customer_list" component={Contacts} />
+            <Route exact path="/import_contact" component={ImportContacts} />
+            <Route exact path="/categories" component={CustomerCategories} />
+
+
+
+
 
 
 

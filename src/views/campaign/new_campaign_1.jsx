@@ -13,15 +13,20 @@ export default function NewCampaign() {
         <div className="setup-campaign-form-areas">
           <FormInput
             name=""
+            label_class="label-normal"
             title="Campaign Title"
             placeholder="My Soap Promo"
+            className="input-normal"
           />
           <FormInput
             name=""
+            label_class="label-normal"
             title="From"
             placeholder="type in the sender name. E.g: Alpha XYZ stores"
+            className="input-normal"
+
           />
-          <FormText name="" title="From" placeholder="Type your message here" />
+          <FormText label_class="label-normal" name="" title="From" placeholder="Type your message here" />
         </div>
       </div>
     </>

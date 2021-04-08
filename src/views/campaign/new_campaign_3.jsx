@@ -65,8 +65,9 @@ export default function NewCampaign() {
           <FormInput
             title="Delivery Date "
             placeholder="Friday, November 27, 2021"
+            className="input-normal"
           />
-          <FormInput title="Delvery Time " placeholder="8:30 am" />
+          <FormInput title="Delvery Time " placeholder="8:30 am"  className="input-normal"/>
         </div>
         <br />
         <div className="schedule_part-box3">

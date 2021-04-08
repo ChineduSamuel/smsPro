@@ -13,14 +13,15 @@ export default function History() {
             <p className="title text-general">Campaigns</p>
             <p className="text-general pr-4 pt-5">Campaigns</p>
 
-            <FormSelect placeholder="Select" />
+            <FormSelect placeholder="Select" className="select-normal" />
             <div className="pt-5 pr-4 pl-4"> - </div>
-            <FormSelect placeholder="Select" />
+            <FormSelect placeholder="Select" className="select-normal" />
           </div>
           <div className="campaign-history-subtop">
             <FormSelect
               classStyle="search"
               placeholder="Search your campagin history"
+              className="select-normal"
             />
             <div className="d-flex justify-content-between align-items-center">
               <p>User: All Accounts</p>

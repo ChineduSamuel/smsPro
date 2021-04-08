@@ -1,5 +1,6 @@
 import React from "react";
 import MainLayout from "../../components/MainLayout/MainLayout";
+import Modal from "../../components/Modal/Modal";
 import people from '../../img/people.png'
 export default function Single() {
   return (
@@ -96,6 +97,7 @@ export default function Single() {
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );

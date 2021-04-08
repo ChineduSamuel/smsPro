@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import organization from "../../img/organization.png";
-import Modal from "../../components/Modal/Modal";
+import Modal from "../../components/Modal/ModalScroll";
 import MainLayout from "../../components/MainLayout/MainLayout";
 import FormInput from "../../components/Forms/FormInput";
 
@@ -57,6 +57,7 @@ export default function Create(props) {
         <FormInput
           title="Name of Organzation"
           placeholder="type name of organization"
+          className="input-normal"
         />
         <hr />
         <div className="pt-3 d-flex justify-content align-items-center">
@@ -65,9 +66,12 @@ export default function Create(props) {
             <i className="fa fa-plus-circle lead"></i>
           </div>
         </div>
-        <div className="pt-3 modal-box">
-          <FormInput title="Name of Team" placeholder="type name of team" />
-          <FormInput title="SMS LIMIT" placeholder="N" />
+        <div className="pt-5 modal-box">
+          <FormInput title="Name of Team" placeholder="type name of team" className="input-modal" />
+          <div className="d-flex justify-content align-items-center">
+            <labe>SMS LIMIT</labe>
+            <input type="text" className="input-modal-sms"  />
+          </div>
         </div>
         <hr />
         <p className="text-center text-general">
