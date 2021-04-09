@@ -1,0 +1,113 @@
+.my_modal {
+    left: 0;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .2s;
+
+    &-content {
+        width: 574px;
+
+        height: 80vh;
+        overflow-y: scroll;
+        background-color: #fff;
+        padding:25px 65px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+
+    }
+
+    &-header,
+    &-footer {
+        padding-top: 7px;
+        padding-bottom: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    &-title {
+        margin: 0;
+    }
+
+    &-body {
+        padding: 5px;
+    }
+
+    &-show {
+        opacity: 1;
+        pointer-events: visible;
+    }
+}
+
+
+.modal-area {
+    left: 0;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .2s;
+
+    &-content {
+        width: 574px;
+        background-color: #fff;
+        padding:5px 35px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+
+    }
+
+    &-header,
+    &-footer {
+        padding-top: 7px;
+        padding-bottom: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    &-body {
+        padding: 5px;
+    }
+
+    &-show {
+        opacity: 1;
+        pointer-events: visible;
+    }
+}
+
+
+.modal-box{
+    width: 413px;
+    height: 197px;  
+    margin-top: 1rem;
+    box-shadow: 1rem 1rem 8rem #000;  
+    /* White fill */
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 30px 20px;
+  }

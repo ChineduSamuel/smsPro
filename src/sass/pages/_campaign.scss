@@ -175,7 +175,6 @@
         position: absolute;
         top: 120px;
         left: 50px;
-        width: 688.81px
     }
 
     &__parent-box {
@@ -333,11 +332,13 @@
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 70px;
-        margin: 0 auto;
+        margin-left: 0rem;
+        margin-right: 7rem;
         width: 1000px;
 
         &-add {
             margin: 0 auto;
+            margin-left: 12rem;
         }
 
     }

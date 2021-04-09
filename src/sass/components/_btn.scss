@@ -26,7 +26,6 @@
     box-sizing: border-box;
     border-radius: 3px;
     padding: 1.2rem 25px;
-    background-color: white;
 
     &-text {
         font-family: Roboto;
@@ -49,7 +48,6 @@
     border-radius: 3px;
     padding: .6rem 4rem;
     text-decoration: none;
-    background: white;
 
     &-text {
         font-family: Roboto;
@@ -63,8 +61,6 @@
     &:hover {
         cursor: pointer;
         text-decoration: none;
-        border: 1px solid #2214DA;
-        background: white;
     }
 }
 

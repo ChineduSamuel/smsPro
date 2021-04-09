@@ -1,0 +1,125 @@
+.table {
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    td {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        /* or 129% */
+
+
+        letter-spacing: 0.003em;
+
+        color: #2E3A59;
+
+    }
+
+    tr:nth(:first-child ){
+        text-align: center;
+    }
+
+    table, td{
+        border: 1px solid #000;
+    }
+
+    tr:last-child{
+        border: 0;
+    }
+
+
+    th {
+
+
+        /* Body Title - 14pt Medium Roboto */
+        border: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+
+        /* Pop Up Box Colour - 2E3A59 */
+
+        color: #2E3A59;
+    }
+
+
+
+
+
+
+
+}
+
+.select-table {
+    width: 28px;
+    height: 33px;
+    background: rgba(196, 196, 196, 0.2);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border-radius: 3px;
+    padding: 1rem 1.5rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #2F235A;
+
+    &:focus {
+      border: 1px solid #E8F0FE;
+      outline: 0;
+    }
+  }
+
+  .pagination-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    
+    
+    /* Pop Up Box Colour - 2E3A59 */
+    
+    color: #2E3A59;
+  }
+
+  .pagey-active{
+      border: 1px solid #EAEAEA;
+      border-radius: 3px;
+      background-color: #EAEAEA;
+      text-align: center;
+  }
+
+  .page-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding: 25px;
+    
+    /* Off white Text box inactive 000000 37% */
+    
+    color: rgba(0, 0, 0, 0.37);
+  }
+
+
