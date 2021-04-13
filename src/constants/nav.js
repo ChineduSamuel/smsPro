@@ -13,7 +13,13 @@ const Menus = [
     name: "Overview",
     link: 'overview',
     menus: [
-      {id:1, name: 'Dashboard', link: 'overview'}
+      {id:1, name: 'Dashboard', link: 'overview'},
+      {id:2, name: 'Dashboardi', link: 'campaign_history'},
+      {id:3, name: 'Dashboardo', link: 'invite_member'},
+      
+
+      
+
      
     ],
     icon: dashboard,
@@ -23,8 +29,8 @@ const Menus = [
     name: "Campaign",
     link: 'new_campaign',
     menus: [
-      { id: 1, name: "Start new campaign", link: 'new_campaign' },
-      { id: 2, name: "Choose Template", link: 'choose_template' },
+      { id: 1, name: "Start new campaign", link: 'new_campaign', parent: 2 },
+      { id: 2, name: "Choose Template", link: 'choose_template', },
       { id: 3, name: "Campaign History", link: 'campaign_history' },
     ],
     icon: campaign,
@@ -112,5 +118,16 @@ const Menus = [
   },
  
 ];
+
+
+export const sideBarOptions = {
+  overview: ['overview'],
+  
+  campaign: ["Start new campaign","Choose template", "Campaign history"],
+  organization: ["Create new","Invite team member", "Organizations"],
+  contacts: ["choose campaign","select template", "others"],
+ 
+}
+
 
 export default Menus;

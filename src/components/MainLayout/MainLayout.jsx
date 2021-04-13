@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FixedTopnav from "../Layouts/TopNav";
 import FixedLeftNav from "../Layouts/Sidebar";
 import Footer from '../Layouts/Footer'
+import '../../sass/main.scss'
 export default function MainLayout(props) {
   return (
     <div className="mainlayout">
