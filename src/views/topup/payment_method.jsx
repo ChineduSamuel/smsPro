@@ -70,7 +70,7 @@ export default function TopUpIndex () {
                 <div className="text-dark-sm pb-2">+2348161289000</div>
 
                 <div className="d-flex justify-content-between align-items-center">
-                  <p className="text-light-general pt-2 text-right">
+                  <p className="text-light-general pt-2">
                     Information not correct ?{' '}
                     <span className="lead">Change it here</span>
                   </p>
@@ -86,52 +86,82 @@ export default function TopUpIndex () {
 
             <br />
             <br />
-            <div className="text-dark-sm d-flex justify-content-between">
-              <div>Amount to Credit</div>
-              <div>1000</div>
+       
+            <div className="card-top-active  ">
+              <div className="text-white text-center">Credit Card</div>
+              <div className="card-details">
+                <form>
+                  <FormInput
+                    title="Card Number"
+                    label_class="label-white"
+                    placeholder="XXXX XXXX XXXX XXXX"
+                    className="input-card"
+                    error= "Error. Incorrect card number, kindly check your card and the correct card number"
+                
+                  />
+                  <div className="d-flex justify-content-between align-items-center">
+                    <FormInput
+                
+                      title="Expiry Date"
+                      placeholder="11/2021"
+                      className="input-card"
+                      label_class="label-white"
+                      error= "Error. Incorrect Expiry Date, kindly check your card and the correct card number"
 
-            </div>
-            <br />
-            <div className="text-dark-sm d-flex justify-content-between">
-              <div>VAT</div>
-              <div>0.00</div>
+                    />
+                    <FormInput
+                    
+                      title="CVV"
+                      placeholder="XXX"
+                      className="input-card"
+                      label_class="label-white"
+                      error= "Error. Incorrect CVV Num, kindly check your card and the correct CVV number"
 
-            </div>
+                    />
 
-            <br />
-            <br />
-            <hr />
-            <div className="lead d-flex justify-content-between">
-              <div className="lead">Total Charged</div>
-              <div>N1000</div>
-
-            </div>
-            <hr />
-            <br />
-            <br />
-            <div className="text-dark-sm d-flex justify-content-between">
-              <div>Previous Balance</div>
-              <div>N50.00</div>
-
-            </div>
-            <div className=" lead d-flex justify-content-between">
-              <div className="lead">New Balance</div>
-              <div>N1500</div>
-
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <p className="text-dark-sm text-center">
-              I accept the
-              {' '}
-              <span className="lead">Terms and Agreement of Transaction</span>
-            </p>
-            <div className="pt-5 text-center">
+                  </div>
+                </form>
+              </div>
               <br />
-              <button className="btn-dark">MAKE PAYMENT</button>
+
+            </div>
+            {/* <div className="card-topup ">
+              <div className="text-darky text-center">Credit Card</div>
+              <div className="card-details">
+                <form>
+                  <FormInput
+                    title="Card Number"
+                    label_class="label-normal"
+                    placeholder="XXXX XXXX XXXX XXXX"
+                    className="input-card"
+                  />
+                  <div className="d-flex justify-content-between align-items-center">
+                    <FormInput
+                      title="Expiry Date"
+                      placeholder="11/2021"
+                      className="input-card"
+                      label_class="label-normal"
+                    />
+                    <FormInput
+                      title="CVV"
+                      placeholder="XXX"
+                      className="input-card"
+                      label_class="label-normal"
+                    />
+
+                  </div>
+                </form>
+              </div>
+              <br />
+
+            </div> */}
+
+            <br />
+            <br />
+            <br />
+            <div className="d-flex justify-content-between align-items-center">
+              <button className="btn-light">BACK</button>
+              <button className="btn-dark">FINISH</button>
 
             </div>
 

@@ -1,8 +1,44 @@
 .topup-card {
     background-color: white;
-    height: 546px;
+    height: 646px;
     padding: 30px;
-    
+
+}
+
+.card-topup {
+    width: 371px;
+    height: 374px;
+    background: #DDF2FF;
+    border: 1px solid #DDF2FF;
+    padding: 35px;
+    margin: 0 auto;
+}
+
+.card-details {
+    padding-top: 50px;
+}
+
+.error-info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    /* White fill */
+
+    color: #FFFFFF;
+}
+
+.card-top-active {
+    width: 401px;
+    height: 374px;
+    padding: 35px;
+    margin: 0 auto;
+    border: 1px solid #2214da;
+    background: linear-gradient(180deg, #2214DA 0%, #0D093C 100%, rgba(17, 4, 179, 0.76) 100%);
 }
 
 .topup-box {

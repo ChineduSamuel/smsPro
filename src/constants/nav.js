@@ -13,9 +13,8 @@ const Menus = [
     name: "Overview",
     link: 'overview',
     menus: [
-      {id:1, name: 'Dashboard', link: 'overview'},
-      {id:2, name: 'Dashboardi', link: 'campaign_history'},
-      {id:3, name: 'Dashboardo', link: 'invite_member'},
+      {id:1, name: 'Overview', link: 'overview'},
+
       
 
       
