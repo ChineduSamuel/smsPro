@@ -16,14 +16,14 @@ export default function NewCampaign() {
             label_class="label-normal"
             title="Campaign Title"
             placeholder="My Soap Promo"
-            className="input-camp"
+            className="input-normal"
           />
           <FormInput
             name=""
             label_class="label-normal"
             title="From"
             placeholder="type in the sender name. E.g: Alpha XYZ stores"
-            className="input-camp"
+            className="input-normal"
 
           />
           <FormText label_class="label-normal" name="" title="From" placeholder="Type your message here" />

@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  --primary-blue: #0000ff;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainbg-container {
+  position: absolute;
+  width: 106vw;
+  height: 180vh;
+  left: 18.52px;
+  top: 1.02px;
+  background: #ecebeb;
+  border-radius: 3px;
+}
+.contactcategory-container {
+  position: absolute;
+  width: 70vw;
+  height: 40vh;
+  left: 370px;
+  top: 163px;
+
+  background: #ffffff;
+  border-radius: 2px;
+}
+.uparrow {
+  height: 23.389103121646px;
+  width: 25.51028263639728px;
+  border-radius: 0px;
+  position: absolute;
+  left: 92.66%;
+  right: -31.29%;
+  top: 6.18%;
+  bottom: 4.11%;
+  color: #2e3a59;
+  transform: rotate(360.28deg);
+}
+.h3-contactcat1 {
+  height: 21.707759857177734px;
+  width: 293.62603759765625px;
+  left: 40.64892578125px;
+  top: 5.18%;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.003em;
+  color: #252733;
+}
+.categoryname-options {
+  position: absolute;
+  width: 8rem;
+  height: 2.4rem;
+  left: 10rem;
+  top: 23px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 3px;
+}
+.h5-sort {
+  height: 19px;
+  width: 96px;
+  left: 0.1rem;
+  top: -0.8rem;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0e0e0f;
+}
+
+.sort-down {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 0px;
+  left: 6.2rem;
+  right: 1rem;
+  top: 1rem;
+  bottom: -2.08%;
+  color: #2e3a59;
+}
+form input[type="text"] {
+  position: absolute;
+  display: flex;
+  width: 45%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+  border: none;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  margin-left: 2.5rem;
+  top: 8rem;
+}
+label {
+  position: absolute;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-left: 2.6rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  top: 6rem;
+}
+.search {
+  height: 41px;
+  width: 126px;
+  left: 0px;
+  top: 0px;
+  border-radius: 3px;
+  position: absolute;
+  left: 4.6%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  color: #ffffff;
+  background: #291cdb;
+}
+.sort-filter {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 0px;
+  left: 2rem;
+  right: 1rem;
+  top: 9rem;
+  bottom: -2.08%;
+  color: #2e3a59;
+}
+.search-container {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  margin-left: 30rem;
+  top: 8rem;
+}
+.contactlist-box {
+  border-radius: 3px;
+  position: absolute;
+  width: 70vw;
+  height: 80vh;
+  left: 370px;
+  top: 30rem;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.uparrow-2 {
+  height: 23.389103121646px;
+  width: 25.51028263639728px;
+  border-radius: 0px;
+  position: absolute;
+  left: 92.66%;
+  right: -31.29%;
+  top: 6.18%;
+  bottom: 4.11%;
+  color: #2e3a59;
+  transform: rotate(360.28deg);
+}
+.h5-contlist {
+  height: 21px;
+  width: 293px;
+  left: -65px;
+  top: 2%;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.003em;
+  color: #252733;
+}
+.addcustomer-box {
+  position: absolute;
+  width: 196px;
+  height: 41px;
+  left: 4.8%;
+  top: 29%;
+  border: 1px solid #2214da;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.h5-addcust1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  width: 140px;
+  height: 17px;
+  left: 25%;
+  top: -29%;
+  color: #2214da;
+}
+.add-icon {
+  height: 18.33333396911621px;
+  border-radius: 0px;
+  position: absolute;
+  left: 10.33%;
+  right: 8.33%;
+  top: 25.33%;
+  bottom: 8.33%;
+  color: #2214da;
+  background-color: #ffffff;
+}
+.nocontact-found {
+  height: 125.33332061767578px;
+  width: 156.6666717529297px;
+  border-radius: 0px;
+  position: absolute;
+  left: 45.33%;
+  right: 8.33%;
+  top: 49.67%;
+  bottom: 16.67%;
+  color: rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.37);
+}
+.p-nocontact {
+  position: absolute;
+  height: 15px;
+  width: 140px;
+  left: 47.33%;
+  right: 8.33%;
+  top: 75.67%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.37);
+}
+.a-nocontact {
+  position: absolute;
+  width: 46px;
+  height: 19px;
+  left: 70.33%;
+  right: 8.33%;
+  top: 90.67%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}

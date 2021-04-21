@@ -8,9 +8,9 @@ export default function Invite() {
   return (
     <MainLayout>
       <div className="organization">
-      <div className="text-right mb-5">
-        <h4>Customer / Customer List</h4>
-      </div>
+        <div className="text-right mb-5">
+          <h4>Customer / Customer List</h4>
+        </div>
         <div className="cardy">
           <div className="text-darky ">
             Search Customers/ Categories
@@ -27,7 +27,7 @@ export default function Invite() {
               />
             </div>
             <div className="pt-4">
-              <FormInput  placeholder="Select Team" className="input-flex" />
+              <FormInput placeholder="Select Team" className="input-flex" />
             </div>
           </div>
           <div>
@@ -45,10 +45,10 @@ export default function Invite() {
             </div>
 
           </div>
-         
+
 
         </div>
-       
+
 
       </div>
     </MainLayout>

@@ -25,6 +25,7 @@ export default function TableBordered() {
           <th className="">LastName</th>
           <th>Phone Number</th>
           <th>Gender</th>
+
         </tr>
         <tr>
           <td className="text-center">
@@ -35,6 +36,7 @@ export default function TableBordered() {
           <td>Sodiq</td>
           <td>07032332373</td>
           <td>Male</td>
+
         </tr>
         <tr>
           <td className="text-center">
@@ -45,6 +47,7 @@ export default function TableBordered() {
           <td>Sodiq</td>
           <td>07032332373</td>
           <td>Male</td>
+
         </tr>
         <tr>
           <td className="text-center">
@@ -55,6 +58,7 @@ export default function TableBordered() {
           <td>Sodiq</td>
           <td>07032332373</td>
           <td>Male</td>
+
         </tr>
         <tr>
           <td className="text-center">
@@ -65,33 +69,34 @@ export default function TableBordered() {
           <td>Sodiq</td>
           <td>07032332373</td>
           <td>Male</td>
+
         </tr>
-       
+
       </table>
       <div className="d-flex justify-content-end pagination-text">
         <div className="d-flex justify-content align-items-center ml-auto">
-        <div className="pr-3">Showing </div>
-        <div className="pr-3"><FormSelect className="select-table" /></div>
-        <div>Out of 5 Custometers</div>
+          <div className="pr-3">Showing </div>
+          <div className="pr-3"><FormSelect className="select-table" /></div>
+          <div>Out of 5 Custometers</div>
         </div>
-        
+
 
       </div>
 
       <div className="page-text d-flex justify-content-center align-items-center">
-      <div className="pt-5 d-flex justify-content align-items-center">
-        <div className="pr-5">First</div>
-        <div className="pr-5">Previous</div>
-        <div className="pr-5"><span className="pagey-active">4</span></div>
-        <div className="pr-5">First</div>
-        <div>Last</div>
+        <div className="pt-5 d-flex justify-content align-items-center">
+          <div className="pr-5">First</div>
+          <div className="pr-5">Previous</div>
+          <div className="pr-5"><span className="pagey-active">4</span></div>
+          <div className="pr-5">First</div>
+          <div>Last</div>
 
+
+        </div>
 
       </div>
-        
-      </div>
 
-    
+
     </div>
   )
 }

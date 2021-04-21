@@ -1,83 +1,91 @@
 .organization {
-    .card-area {
-        width: 972px;
-        height: 582.91px;
-        margin: 0 auto;
-        background: #ffffff;
-        padding: 30px 50px;
-        border-radius: 3px;
-    }
+  .card-area {
+    width: 1000pxpx;
+    height: 582.91px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px 50px;
+    border-radius: 3px;
+  }
 
-    &-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 13rem 0px
-    }
+  &-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13rem 0px;
+  }
+  .sam_h5_contlist {
+    border-radius: undefinedpx;
+    position: absolute;
+    width: 140px;
+    height: 15px;
+    left: 510px;
+    top: 840px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.37);
+  }
+  &-footer {
+    padding-top: 20rem;
+    text-align: center;
+    padding-left: 0;
+  }
 
-    &-footer {
-        padding-top: 20rem;
-        text-align: center;
-        padding-left: 0;
-    }
+  &-info {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    right: 40px;
+  }
 
-    &-info {
-        position: absolute;
-        top: 80px;
-        left: 60px;
-        right: 40px;
-        
-    }
+  .teams-area {
+    margin-top: 40px;
+    margin-right: 2rem;
+    padding-bottom: 0;
+  }
 
-    .teams-area {
-        margin-top: 40px;
-        margin-right: 2rem;
-        padding-bottom: 0;
-    }
+  .stats-area {
+    margin-top: 30px;
+    padding-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
 
-    .stats-area {
-        margin-top: 30px;
-        padding-bottom: 0;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 18px;
-        /* or 129% */
+    letter-spacing: 0.003em;
 
-        letter-spacing: 0.003em;
+    /* Pop Up Box Colour - 2E3A59 */
 
-        /* Pop Up Box Colour - 2E3A59 */
+    color: #2e3a59;
+  }
 
-        color: #2E3A59;
-    }
+  .action-btn {
+    margin-top: 10px;
+  }
 
-    .action-btn {
-        margin-top: 10px;
-    }
+  &-boxes {
+    width: 201px;
+    height: 161px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    border: 3px solid #f5f5f5;
+  }
+  .active {
+    width: 201px;
+    height: 161px;
+    padding: 15px;
+    background: #2214da;
+    border-radius: 6px;
+  }
 
-    &-boxes {
-        width: 201px;
-        height: 161px;
-        padding: 15px;
-        background: #fff;
-        border-radius: 6px;
-        border: 3px solid #f5f5f5;
-       
-
-       
-    }
-    .active {
-        width: 201px;
-        height: 161px;
-        padding: 15px;
-        background: #2214DA;
-        border-radius: 6px;
-    }
-
-    &-history{
-        padding: 40px;
-    }
-
-
+  &-history {
+    padding: 40px;
+  }
 }

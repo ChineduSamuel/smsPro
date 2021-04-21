@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  --primary-blue: #0000ff;
+}
+
+.sam_p-h4 {
+  position: relative;
+  top: 0px;
+  left: 8.7px;
+}
+.sam_p1-h4 {
+  position: relative;
+  top: 0px;
+  left: 880px;
+}
+
+.sam_profile-container {
+  position: relative;
+  width: 1034.02px;
+  height: 1164.57px;
+  left: 8.49px;
+  top: 10.53px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.sam_arrow-icon {
+  height: 20.97056388854982px;
+  width: 20.949788093566903px;
+  border-radius: 0px;
+  position: absolute;
+  left: 960px;
+  right: -30.98%;
+  top: 4%;
+  bottom: 4.29%;
+  color: #2e3a59;
+  transform: rotate(360deg);
+}
+.sam_h3-23 {
+  position: absolute;
+  width: 257px;
+  height: 19px;
+  left: 40px;
+  right: 812px;
+  top: 4%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  color: #252733;
+  margin-left: 4rem;
+}
+.sam_h4-44 {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  position: absolute;
+  height: 19px;
+  width: 40%;
+  left: 40px;
+  right: 812px;
+  top: 10%;
+  color: #252733;
+  margin-left: 4rem;
+}
+.sam_chris-img {
+  height: 80.41664123535156px;
+  width: 80.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 59vw;
+  right: 700px;
+  top: 180px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+}
+
+.sam_profile-form {
+  position: absolute;
+  width: 1000.02px;
+  height: 980.57px;
+  left: 40px;
+  right: 812px;
+  top: 18%;
+}
+
+.sam_profile_text-container {
+  columns: 2;
+  width: 85.8%;
+}
+
+form input[type="text"] {
+  display: block;
+  width: 75%;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  border: none;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  margin-left: 4rem;
+  top: 100px;
+}
+
+form input[type="email"] {
+  display: block;
+  width: 75%;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  background: #f5f5f5;
+  margin-left: 4rem;
+}
+form input[type="password"] {
+  display: block;
+  width: 75%;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  background: #f5f5f5;
+  margin-left: 4rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  margin-left: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000000;
+}
+.sam_profile_input-container .password {
+  position: relative;
+}
+.sam_change-login {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  margin: 6.5rem 4rem;
+  color: #252733;
+}
+
+.sam_savechanges {
+  position: absolute;
+  width: 148px;
+  height: 35px;
+  left: 644px;
+  top: 389px;
+  background: #291cdb;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+  color: #ffffff;
+}
+.sam_savechanges2 {
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 870px;
+  top: 280px;
+  text-align: center;
+  color: #2214da;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 2px thick #b3b1d1;
+}
+.sam_updatechanges {
+  position: absolute;
+  width: 148px;
+  height: 35px;
+  left: 644px;
+  top: 890px;
+  background: #291cdb;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+  color: #ffffff;
+}
+.sam_p-100login {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.37);
+}
+.sam_h4-66 {
+  display: flex;
+  align-content: center;
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  border-radius: 2px var(--primary-blue) thick;
+  left: 63vw;
+  right: 700px;
+  top: -35px;
+  bottom: -93.33%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #2214da;
+}
+.sam_p-44 {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  position: absolute;
+  height: 19px;
+  width: 50%;
+  left: 40px;
+  right: 812px;
+  top: 12%;
+  color: rgba(0, 0, 0, 0.37);
+  margin-left: 4rem;
+}

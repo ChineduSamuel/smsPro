@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  --primary-blue: #0000ff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+a:hover {
+  text-decoration: underline;
+}
+.small {
+  font-size: 80%;
+  text-align: center;
+}
+.sam_split-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.sam_left {
+  height: 200px;
+}
+.sam_left,
+.sam_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sam_left {
+  background-color: var(--primary-blue);
+}
+
+.sam_left .sam_copy {
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sam_left p {
+  font-weight: 400;
+}
+.sam_right .sam_copy {
+  color: black;
+  text-align: center;
+}
+.sam_logo {
+  height: 57px;
+  width: 64px;
+  border-radius: 50%;
+  position: absolute;
+  left: 72.78%;
+  right: 22.78%;
+  top: -10%;
+  bottom: 100.31%;
+  background: #2214da;
+}
+.sam_right .sam_copy p {
+  margin: 1.5em 0;
+  font-size: 0.87rem;
+}
+.sam_right .sam_copy p {
+  margin: 1.5em 0;
+  font-size: 0.875rem;
+}
+.sam_right form {
+  width: 380px;
+}
+
+form .sam_input-container p {
+  color: red;
+}
+
+.sam_text-container {
+  columns: 2;
+  column-width: 5rem;
+}
+form input[type="text"] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+  border: none;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+}
+
+form input[type="email"] {
+  display: block;
+  width: 35vw;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+}
+
+form input[type="password"] {
+  display: block;
+  width: 35vw;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+}
+form input[type="password2"] {
+  display: block;
+  width: 35vw;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  background: #f5f5f5;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.sam_input-container .password {
+  position: relative;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 2rem;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 0 1.25rem 0;
+}
+.checkbox-container input:checked ~ .checkmark {
+  background-color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+}
+.checkmark {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  top: -4px;
+  left: 0;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  width: 5px;
+  height: 10px;
+  left: 8px;
+  top: 4px;
+  transform: rotate(45deg);
+}
+.sam_signup-btn {
+  display: block;
+  width: 35vw;
+  background: var(--primary-blue);
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 0.6rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.sam_signup-btn2 {
+  display: block;
+  width: 35vw;
+  background: white;
+  color: black;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 2px 15px #888888;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+.sam_signup-btn:hover {
+  background: #2c4893;
+  cursor: pointer;
+}
+.sam_signup-btn2:hover {
+  background: var(--primary-blue);
+  color: white;
+  cursor: pointer;
+}
+@media screen and (min-width: 480px) {
+  .sam_split-screen {
+    flex-direction: row;
+    height: 100%;
+  }
+  .sam_left,
+  .sam_right {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
+  .sam_text-container {
+    display: block;
+  }
+}

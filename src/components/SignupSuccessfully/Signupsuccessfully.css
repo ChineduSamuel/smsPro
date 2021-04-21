@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  --primary-blue: #0000ff;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.sam_wrapper-container {
+  left: 10rem;
+  top: 3rem;
+  border-radius: 0px;
+  position: relative;
+  width: 70vw;
+  height: 115vh;
+  background: #f7f7f7;
+  box-shadow: 3px 3px 1px #e9e8e8;
+}
+
+.sam_shortmenu {
+  position: absolute;
+  width: 70vw;
+  height: 11.9vh;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 3px 3px 3px #e9e8e8;
+}
+
+.sam_logobox {
+  height: 4rem;
+  width: 4rem;
+  left: 0px;
+  top: -1px;
+  border-radius: 0px;
+  position: absolute;
+  background: #2214da;
+}
+a {
+  position: absolute;
+  left: 12.7%;
+  right: 11.9%;
+  top: 29.27%;
+  bottom: 29.27%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.a-21 {
+  position: absolute;
+  width: 455px;
+  height: 28px;
+  left: -75px;
+  top: 1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #190d99;
+}
+.sam_logobox1 {
+  height: 37px;
+  width: 33px;
+  left: 15px;
+  top: 10px;
+  border-radius: 0px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.sam_loginbox {
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  top: 17px;
+  left: 660px;
+  right: 0%;
+  bottom: 0%;
+  background: #291cdb;
+  border-radius: 3px;
+}
+
+.sam_h2logobox {
+  position: absolute;
+  width: 111px;
+  height: 23px;
+  left: 80px;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  top: 6px;
+  color: #030026;
+}
+
+.sam_signupsucces-box {
+  position: absolute;
+  width: 380px;
+  height: 200px;
+  left: 340px;
+  top: 150px;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px #e9e8e8;
+}
+.sam_h5success {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #2e3a59;
+}
+.sam_h-2side {
+  position: absolute;
+  width: 300px;
+  height: 90px;
+  left: 30px;
+  top: 120px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45px;
+  color: #2e3a59;
+}
+.sam_p-5side {
+  position: absolute;
+  width: 350px;
+  height: 28px;
+  left: 30px;
+  top: 300px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #030026;
+}
+.sam_p-7side {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #2e3a59;
+  text-decoration: none;
+}
+
+.sam_good-ticker {
+  height: 8.02777099609375px;
+  width: 18.036418914794922px;
+  left: 6.48193359375px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.06%;
+  right: 19.06%;
+  top: 75.43%;
+  bottom: 26.43%;
+
+  background: #41404b;
+}
+
+.sam_p-2side {
+  position: absolute;
+  width: 300px;
+  height: 252px;
+  left: 30px;
+  top: -17.43px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+
+  color: #030026;
+}
+
+.sam_good-ticker1 {
+  height: 8.02777099609375px;
+  width: 18.036418914794922px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.06%;
+  right: 19.06%;
+  top: 80.43%;
+  bottom: 26.43%;
+  background: #41404b;
+}
+.sam_p-12logobox {
+  position: absolute;
+  width: 161px;
+  height: 16px;
+  left: 479px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #030026;
+}
+.sam_p-13side {
+  position: absolute;
+  width: 437px;
+  height: 56px;
+  left: 30px;
+  top: 570px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 28px;
+  color: #030026;
+}
+
+.sam_p-22side {
+  position: absolute;
+  width: 300px;
+  height: 252px;
+  left: 30px;
+  top: -17.43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+  color: #030026;
+}
+
+.sam_good-ticker2 {
+  height: 8.02777099609375px;
+  width: 18.036418914794922px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.06%;
+  right: 19.06%;
+  top: 85.43%;
+  bottom: 26.43%;
+  background: #41404b;
+}
+
+.sam_p-23side {
+  position: absolute;
+  width: 300px;
+  height: 252px;
+  left: 30px;
+  top: -17.43px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+
+  color: #030026;
+}
+
+.sam_good-ticker3 {
+  height: 8.02777099609375px;
+  width: 18.036418914794922px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.06%;
+  right: 19.06%;
+  top: 89.43%;
+  bottom: 26.43%;
+  background: #41404b;
+}
+
+.sam_p-24side {
+  position: absolute;
+  width: 300px;
+  height: 252px;
+  left: 30px;
+  top: -17.43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 28px;
+  color: #030026;
+}

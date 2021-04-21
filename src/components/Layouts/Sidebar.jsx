@@ -8,29 +8,23 @@ export default function FixedLeftNav(props) {
   const [menuList , setMenu] = useState({title: '', menus: []})
   const [activeMain , setActiveMain] = useState(false)
   const [activateSubWidth , setActivateSubWidth] = useState(false)
-  const [currentParent , setCurrentParent] = useState(1)
-
 
 
 
   const getMenus = (id) => {
-    setCurrentParent(id)
     const obj = Menus.find(x => x.id === id)
-    console.log(obj)
-    setActiveMain(obj)
+    setActiveMain(obj.name)
     setMenu({
       ...menuList,title: obj.name, menus: obj.menus
     });
-   
+    if(obj.menus.length !== 0){
+      setActivateSubWidth(true)
+    }
 
   }
 
-  // console.log('lists are ' + menuList.menus.map((men) => {
-  //   console.log(men.name)
-  // }))
-
   const routeName = location.pathname.split('/');
-  
+  console.log(routeName[1])
 
   
 
@@ -60,13 +54,14 @@ export default function FixedLeftNav(props) {
         <div className="subitems-area space-up">
           {menuList.menus.map((menu) => {
             return(
-                  <Link to={`/${menu.link}`} style={{textDecoration: 'none', color: '#000'}} onClick={getMenus.bind(this, currentParent)}><div className={`mt-2 py-2 ${routeName[1] === menu.link && "sidebar-active"}` }>{menu.name}</div></Link>
+                  <Link to={`/${menu.link}`} style={{textDecoration: 'none', color: '#000'}}><div className={`mt-2 py-2 ${routeName[1] === menu.link && "sidebar-active"}` }>{menu.name}</div></Link>
 
             )
           })}
          
         </div>
       </div>
+      {/* style={{width: !activateSubWidth ? '248px': '107px', backgroundColor: !activateSubWidth ? 'white' : '#fff'}} */}
     </nav>
   );
 }
