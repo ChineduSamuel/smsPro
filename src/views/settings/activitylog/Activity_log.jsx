@@ -60,6 +60,7 @@ function Activity_log() {
 
 
             <div class="card activitylog_container2">
+                <h4>@8 Nov 2020</h4>
                 <img src={arrowup} className="sam_activity_log_arrowup" />
                 <div class="card-body">
                     <img src={chrisimg} div className="sam_actlogchris-img" />
