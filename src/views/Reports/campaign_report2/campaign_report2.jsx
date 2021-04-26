@@ -1,6 +1,5 @@
 import React from 'react'
-import MainLayout from '../../../components/MainLayout/MainLayout'
-
+import MainLayout from '../../../components/MainLayout/MainLayout';
 import smallsignal1 from '../../../img/smallsignal1.png';
 import smallsignal2 from '../../../img/smallsignal2.png';
 import smallsignal3 from '../../../img/smallsignal3.png';
@@ -23,9 +22,11 @@ import downloadarrow from '../../../img/downloadarrow.PNG';
 import month1 from '../../../img/month1.PNG';
 import month2 from '../../../img/month2.PNG';
 import sortdown from '../../../img/arrowdown.PNG';
-import './campaign_report.scss'
 
-function campaign_report() {
+
+import './campaign_report2.scss'
+
+function campaign_report2() {
     return (
         <MainLayout>
             <h4 className="sam_campaign_reporth4-1">Campaign Reports</h4>
@@ -58,7 +59,12 @@ function campaign_report() {
                     <img src={longgraph5} className="sam_campaign_longgraph5" />
                     <img src={longgraph6} className="sam_campaign_longgraph6" />
                     <img src={longgraph7} className="sam_campaign_longgraph7" />
-                    <img src={longgraph8} className="sam_campaign_longgraph8" />
+                    <img src={longgraph5} className="sam_campaign_longgraph8" />
+                    <img src={longgraph4} className="sam_campaign_longgraph9" />
+                    <img src={longgraph6} className="sam_campaign_longgraph10" />
+                    <img src={longgraph4} className="sam_campaign_longgraph11" />
+                    <img src={longgraph3} className="sam_campaign_longgraph12" />
+                    <img src={longgraph8} className="sam_campaign_longgraph13" />
 
                     {/* Arrow shapes */}
 
@@ -89,7 +95,7 @@ function campaign_report() {
 
 
 
-                    <h4 className="sam_campaign_reporth4-9">Weekly</h4>
+                    <h4 className="sam_campaign_reporth4-9">Monthly</h4>
                     <img src={sortdown} className="sam_campaign_reportarrowdown" />
                     {/* <h4 className="sam_campaign_reporth4-10">1</h4> */}
                     <h4 className="sam_campaign_reporth4-11">of 25</h4>
@@ -100,13 +106,13 @@ function campaign_report() {
 
                 </div>
             </div>
-            <div className="card sam_campaigncard3">
+            <div className="card sam_campaigncard3-report2">
                 <div class="card-body">
                     {/* vertical lines */}
-                    <h3 className="sam_campaignh3-5"></h3>
-                    <h3 className="sam_campaignh3-6"></h3>
-                    <h3 className="sam_campaignh3-7"></h3>
-                    <h3 className="sam_campaignh3-8"></h3>
+                    <h3 className="sam_campaignh3-51"></h3>
+                    <h3 className="sam_campaignh3-62"></h3>
+                    <h3 className="sam_campaignh3-73"></h3>
+                    <h3 className="sam_campaignh3-84"></h3>
 
                     {/*Horizontal lines  */}
                     <h3 className="sam_campaignh3-9"></h3>
@@ -115,15 +121,26 @@ function campaign_report() {
                     <h3 className="sam_campaignh3-12"></h3>
                     <h3 className="sam_campaignh3-13"></h3>
                     <h3 className="sam_campaignh3-14"></h3>
+                    <h3 className="sam_campaignh3-15"></h3>
+                    <h3 className="sam_campaignh3-16"></h3>
+                    <h3 className="sam_campaignh3-17"></h3>
+                    <h3 className="sam_campaignh3-18"></h3>
+                    <h3 className="sam_campaignh3-19"></h3>
+
 
                 </div>
-                <h5 className='sam_campaignmonh5'>Monday</h5>
-                <h5 className='sam_campaigntuesh5'>Tuesday</h5>
-                <h5 className='sam_campaigwedh5'>Wednesday</h5>
-                <h5 className='sam_campaignthurh5'>Thursday</h5>
-                <h5 className='sam_campaignfrih5'>Friday</h5>
-                <h5 className='sam_campaignsath5'>Saturday</h5>
-                <h5 className='sam_campaigsunh5'>Sunday</h5>
+                <h5 className='sam_campaignjanh5'>January</h5>
+                <h5 className='sam_campaignfebh5'>February</h5>
+                <h5 className='sam_campaignmarh5'>March</h5>
+                <h5 className='sam_campaignaprih5'>April</h5>
+                <h5 className='sam_campaignmayh5'>May</h5>
+                <h5 className='sam_campaignjunh5'>June</h5>
+                <h5 className='sam_campaignjulyh5'>July</h5>
+                <h5 className='sam_campaignaugh5'>August</h5>
+                <h5 className='sam_campaignsepth5'>September</h5>
+                <h5 className='sam_campaignocth5'>October</h5>
+                <h5 className='sam_campaignnovh5'>November</h5>
+                <h5 className='sam_campaigndech5'>December</h5>
                 <h5 className='sam_campaigntotalh5'>Total</h5>
 
 
@@ -135,7 +152,12 @@ function campaign_report() {
                 <h5 className='sam_campaign7-h5'>5</h5>
                 <h5 className='sam_campaign8-h5'>6</h5>
                 <h5 className='sam_campaign9-h5'>12</h5>
-                <h5 className='sam_campaign10-h5'>456</h5>
+                <h5 className='sam_campaign10-h5'>7</h5>
+                <h5 className='sam_campaign11-h5'>9</h5>
+                <h5 className='sam_campaign12-h5'>10</h5>
+                <h5 className='sam_campaign13-h5'>13</h5>
+                <h5 className='sam_campaign14-h5'>15</h5>
+                <h5 className='sam_campaign15-h5'>456</h5>
 
                 {/* Customers */}
                 <h5 className='sam_campaigncust1-h5'>600</h5>
@@ -145,7 +167,13 @@ function campaign_report() {
                 <h5 className='sam_campaigncust5-h5'>450</h5>
                 <h5 className='sam_campaigncust6-h5'>450</h5>
                 <h5 className='sam_campaigncust7-h5'>4500</h5>
-                <h5 className='sam_campaigncust8-h5'>6789</h5>
+                <h5 className='sam_campaigncust8-h5'>4500</h5>
+                <h5 className='sam_campaigncust9-h5'>4500</h5>
+                <h5 className='sam_campaigncust10-h5'>4500</h5>
+                <h5 className='sam_campaigncust11-h5'>4500</h5>
+                <h5 className='sam_campaigncust12-h5'>4500</h5>
+                <h5 className='sam_campaigncust13-h5'>6789</h5>
+
 
                 {/* Amount */}
                 <h5 className='sam_campaignamount1-h5'>#680</h5>
@@ -155,12 +183,13 @@ function campaign_report() {
                 <h5 className='sam_campaignamount5-h5'>#680</h5>
                 <h5 className='sam_campaignamount6-h5'>#680</h5>
                 <h5 className='sam_campaignamount7-h5'>#680</h5>
-                <h5 className='sam_campaignamount8-h5'>#12,000</h5>
+                <h5 className='sam_campaignamount8-h5'>#680</h5>
+                <h5 className='sam_campaignamount9-h5'>#680</h5>
+                <h5 className='sam_campaignamount10-h5'>#680</h5>
+                <h5 className='sam_campaignamount11-h5'>#680</h5>
+                <h5 className='sam_campaignamount12-h5'>#680</h5>
+                <h5 className='sam_campaignamount13-h5'>#12,000</h5>
             </div>
-
-
-
-
 
             <div className="card sam_campaigncard4">
                 <div class="card-body">
@@ -192,16 +221,17 @@ function campaign_report() {
                     <h3 className="sam_campaigntotuph4-8">11%</h3>
                 </div>
             </div>
-            <div className="card  sam_campaign_card8">
+            <div className="card  sam_campaign_card8-report2">
                 <div class="card-body">
-                    <img src={downloadarrow} className="sam_campaign_downloadarrow" />
+                    <img src={downloadarrow} className="sam_campaign_downloadarrow2" />
                 </div>
             </div>
 
-            <button type="button" class="sam_campaign_downloadbtn "><h4 className="sam_campaigmbth4">Download as CSV</h4></button>
+            <button type="button" class="sam_campaign_downloadbtn2 "><h4 className="sam_campaigmbth4">Download as CSV</h4></button>
+
 
         </MainLayout>
     )
 }
 
-export default campaign_report
+export default campaign_report2

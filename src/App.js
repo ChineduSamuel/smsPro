@@ -23,7 +23,9 @@ import profileOTP from "./views/profile/profileOTP/profileOTP";
 import Reports from "./views/Reports/billing_history";
 import billing_history from "./views/Reports/billing_history";
 import campaign_report from "./views/Reports/campaign_report/campaign_report";
+import campaign_report2 from "./views/Reports/campaign_report2/campaign_report2";
 import card_usage from "./views/Reports/card_usage/card_usage";
+import card_usage2 from "./views/Reports/card_usage2/card_usage2";
 
 import "./sass/main.scss";
 
@@ -59,7 +61,13 @@ function App() {
             <Route exact path="/profileOTP" component={profileOTP} />
             <Route exact path="/billing_history" component={billing_history} />
             <Route exact path="/campaign_report" component={campaign_report} />
+            <Route
+              exact
+              path="/campaign_report2"
+              component={campaign_report2}
+            />
             <Route exact path="/card_usage" component={card_usage} />
+            <Route exact path="/card_usage2" component={card_usage2} />
           </Switch>
         </div>
       </Router>

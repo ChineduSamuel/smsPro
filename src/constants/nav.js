@@ -61,7 +61,7 @@ const Menus = [
   {
     id: 6,
     name: "Reports",
-    link: "billing_history",
+    link: "campaign_report",
     menus: [
       { id: 1, name: "Campaign Report", link: "campaign_report" },
       { id: 2, name: "Billing History", link: "billing_history" },
