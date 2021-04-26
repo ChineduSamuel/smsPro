@@ -1,19 +1,22 @@
 import React from 'react'
+import MainLayout from '../../../components/MainLayout/MainLayout';
 import cardusagevector1 from '../../../img/cardusagevector1.png';
 import cardusagevector2 from '../../../img/cardusagevector2.png';
 import unchecked from '../../../img/unchecked.png';
 import calender from '../../../img/calender.PNG';
 import calender2 from '../../../img/calender2.PNG';
+import arrowup from '../../../img/arrow-up.png'
+import chrisimg from '../../../img/chris.png';
+import './Activity_log.scss';
 
 
-import MainLayout from '../../../components/MainLayout/MainLayout';
-
-function card_usage2() {
+function Activity_log() {
     return (
         <MainLayout>
-            <h4 className="sam_cardusageh4-1">Card Usage</h4>
-            <h4 className="sam_cardusageh4-2">Home / Settings / Card Usage</h4>
+            <h4 className="sam_cardusageh4-1">Activity Log</h4>
+            <h4 className="sam_cardusageh4-2">Home / Overview</h4>
             <div class="row">
+
                 <div class="col-sm-6">
                     <h4 className="sam_cardusageselctperiodh4-3">Select Usage Period</h4>
                     <div className="card sam_card_usage">
@@ -45,46 +48,42 @@ function card_usage2() {
                     <img src={cardusagevector1} className="sam_cardusage_vector1"></img>
                     <img src={cardusagevector2} className="sam_cardusage_vector2"></img>
 
+
                     <h4 className="sam_cardusage_uncheckedh4">All Time</h4>
 
                     <button type="button" className="btn btn-light sam_cardusage_btn">SEARCH</button>
                 </form>
 
-                <div class="card sam_cardusage2_container">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-
-                <div class="card sam_cardusage2_container2">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-                <div class="card sam_cardusage2_container3">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-                <div class="card sam_cardusage2_container4">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-
-                <div class="card sam_cardusage2_container5">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-
-
-
 
 
             </div>
+
+
+            <div class="card activitylog_container2">
+                <img src={arrowup} className="sam_activity_log_arrowup" />
+                <div class="card-body">
+                    <img src={chrisimg} div className="sam_actlogchris-img" />
+                </div>
+
+                <div class="card activitylog_container3">
+                    <div class="card-body">
+                        <img src={chrisimg} div className="sam_actlogchris-img2" />
+                        <img src={chrisimg} div className="sam_actlogchris-img3" />
+                    </div>
+                </div>
+
+                <div class="card activitylog_container4">
+
+                    <div class="card-body">
+                        <img src={chrisimg} div className="sam_actlogchris-img4" />
+                        <img src={chrisimg} div className="sam_actlogchris-img5" />
+
+                    </div>
+                </div>
+            </div>
+
         </MainLayout>
     )
 }
 
-export default card_usage2
+export default Activity_log

@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  --primary-blue: #0000ff;
+}
+
+.sam_card_usage {
+  position: absolute;
+  height: 280px;
+  width: 700px;
+  left: 150.42431640625px;
+  top: 30px;
+  border-radius: 2px;
+}
+.sam_cardcol1 {
+  border-radius: 3px;
+  position: absolute;
+  width: 320px;
+  height: 45px;
+  left: 200px;
+  top: 150px;
+  border-radius: 3px;
+}
+.sam_cardcol2 {
+  position: absolute;
+  width: 350px;
+  height: 45px;
+  left: 520px;
+  top: 172px;
+
+  /* Inactive Box fill */
+
+  border-radius: 3px;
+}
+.card_usageh4-40 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.003em;
+  text-align: left;
+  position: absolute;
+  width: 49px;
+  height: 17.79px;
+  left: 4px;
+  top: 32.61px;
+  letter-spacing: 0.003em;
+  color: rgba(0, 0, 0, 0.37);
+}
+.card_usageh4-41 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.003em;
+  text-align: left;
+  position: absolute;
+  width: 49px;
+  height: 17.79px;
+  left: 540px;
+  top: 181.61px;
+  letter-spacing: 0.003em;
+  color: rgba(0, 0, 0, 0.37);
+}
+
+.sam_cardusage_btn {
+  position: absolute;
+  width: 126px;
+  height: 41px;
+  left: 701px;
+  top: 240px;
+  background-color: #291cdb;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.sam_card_usage2 {
+  position: absolute;
+  left: 10.42431640625px;
+  top: 301px;
+  border-radius: 2px;
+
+  width: 980.02px;
+  height: 280.5px;
+
+  background: #ffffff;
+  border-radius: 2px;
+}
+.sam_cardusage_calender1 {
+  height: 20px;
+  width: 20.25px;
+
+  border-radius: 0px;
+  position: absolute;
+  left: 75.5%;
+  right: 12.5%;
+  top: 70.33%;
+  bottom: 8.33%;
+
+  color: #2e3a59;
+}
+
+.sam_cardusage_calender2 {
+  height: 20px;
+  width: 20.25px;
+  left: 780.3740234375px;
+  top: 180px;
+  border-radius: 0px;
+  position: absolute;
+
+  bottom: 8.33%;
+
+  background: #2e3a59;
+}
+
+.sam_cardusageh4-1 {
+  height: 19px;
+  width: 257px;
+  left: 100px;
+  top: 2px;
+  position: absolute;
+
+  /* Home / Overview */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+.sam_cardusageh4-2 {
+  position: absolute;
+  height: 34px;
+  left: 598px;
+  right: 80px;
+  top: 2px;
+
+  /* Home / Overview */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+
+.sam_cardusageselctperiodh4-3 {
+  position: absolute;
+  height: 19px;
+  left: 190px;
+  z-index: 2000;
+  top: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+.sam_cardusage_uncheckedh4 {
+  height: 22px;
+  width: 275px;
+  left: 277px;
+  top: 248px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+
+  /* Sidebar Drops colour */
+
+  color: #455a64;
+}
+.sam_cardusage_unchecked {
+  height: 24.166664123535156px;
+  width: 24.16666603088379px;
+  left: 240.9853515625px;
+  top: 240.984375px;
+  border-radius: 0px;
+  position: absolute;
+  bottom: 6.38%;
+
+  color: #23bb86;
+}
+.sam_cardusage_vector2 {
+  height: 23.999792098999112px;
+  width: 26.66643524169932px;
+  left: 562.66650390625px;
+  top: 250px;
+  border-radius: 0px;
+  position: absolute;
+  color: #4a86fb;
+  transform: rotate(360deg);
+}
+.sam_cardusage_vector1 {
+  height: 23.99979209899939px;
+  width: 26.666435241699627px;
+  left: 610px;
+  top: 250px;
+  border-radius: 0px;
+  position: absolute;
+
+  /* Off white Text box inactive 000000 37% */
+
+  color: rgba(0, 0, 0, 0.37);
+}
+// Activity Log
+.activitylog_container2 {
+  height: 710px;
+  width: 900px;
+  left: 80px;
+  top: 350px;
+  border-radius: 2px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 2px;
+}
+.sam_activity_log_arrowup {
+  height: 37.97056388854982px;
+  width: 37.949788093566903px;
+  left: 830.4853515625px;
+  top: 30px;
+  border-radius: 0px;
+  position: absolute;
+  color: #2e3a59;
+  transform: rotate(360deg);
+}
+
+.activitylog_container3 {
+  height: 138px;
+  width: 900px;
+  left: -1px;
+  top: 85px;
+  border-radius: 0px;
+  position: absolute;
+  background: #e8f0fe;
+}
+.activitylog_container4 {
+  height: 138px;
+  width: 900px;
+  left: -1px;
+  top: 350px;
+  border-radius: 0px;
+  position: absolute;
+
+  /* Gray 6 */
+
+  background: #f2f2f2;
+}
+.sam_actlogchris-img {
+  height: 50.41664123535156px;
+  width: 50.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.4vw;
+  top: 110px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+  z-index: 2000;
+}
+.sam_actlogchris-img2 {
+  height: 50.41664123535156px;
+  width: 50.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.4vw;
+  top: 170px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+  z-index: 2000;
+}
+.sam_actlogchris-img3 {
+  height: 50.41664123535156px;
+  width: 50.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.4vw;
+  top: 290px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+  z-index: 2000;
+}
+.sam_actlogchris-img4 {
+  height: 50.41664123535156px;
+  width: 50.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.4vw;
+  top: 170px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+  z-index: 2000;
+}
+.sam_actlogchris-img5 {
+  height: 50.41664123535156px;
+  width: 50.16665649414062px;
+  border-radius: 0px;
+  position: absolute;
+  left: 2.4vw;
+  top: 310px;
+  bottom: -93.33%;
+  border-radius: 50%;
+  border: 1.5px solid #dfe0eb;
+  //   z-index: 2000;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  --primary-blue: #0000ff;
+}
+
+.settings2_container1 {
+  height: 550.3973999023438px;
+  width: 900.0157470703125px;
+  left: 32.4921875px;
+  top: 50.2099609375px;
+  border-radius: 2px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 2px;
+}
+.sam_contactus_arrowup {
+  height: 37.97056388854982px;
+  width: 37.949788093566903px;
+  left: 830.4853515625px;
+  top: 40px;
+  border-radius: 0px;
+  position: absolute;
+  color: #2e3a59;
+  transform: rotate(360deg);
+}
+.sam_contact_ustitleh4 {
+  height: 19px;
+  width: 257px;
+  left: 30.4921875px;
+  top: 5px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+.sam_contact_ustitleh4-1 {
+  position: absolute;
+  height: 34px;
+  left: 820px;
+  top: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+.sam_contact_ustitlep1 {
+  height: 19px;
+  width: 257px;
+  left: 92px;
+  top: 80px;
+  position: absolute;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #455a64;
+  z-index: 5000;
+}
+
+.sam_settings-subjectcont {
+  position: absolute;
+  width: 944px;
+  height: 41px;
+  left: 20px;
+  top: 70px;
+
+  border-radius: 3px;
+}
+
+.sam_settings-emailcont {
+  position: absolute;
+  width: 944px;
+  height: 42px;
+  left: 20px;
+  top: 160px;
+
+  border-radius: 3px;
+}
+.sam_settings-messagecont {
+  position: absolute;
+  width: 800px;
+  height: 120px;
+  left: 20px;
+  top: 270px;
+
+  border-radius: 3px;
+}
+#sam_settings-messageconttext {
+  position: absolute;
+  width: 707px;
+  height: 120px;
+  left: 40px;
+  top: 30px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 3px;
+}
+
+.samcontact_usbtn {
+  position: absolute;
+  width: 126px;
+  height: 41px;
+  left: 350px;
+  top: 470px;
+  background: #291cdb;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.sam_contact_usbtntext {
+  position: absolute;
+  width: 49px;
+  height: 17px;
+  left: 35px;
+  top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}

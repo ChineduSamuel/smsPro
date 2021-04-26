@@ -26,7 +26,10 @@ import campaign_report from "./views/Reports/campaign_report/campaign_report";
 import campaign_report2 from "./views/Reports/campaign_report2/campaign_report2";
 import card_usage from "./views/Reports/card_usage/card_usage";
 import card_usage2 from "./views/Reports/card_usage2/card_usage2";
-
+import ApexChartUi from "./views/Reports/card_usage2/card_usageapexchart";
+import Contact_us from "./views/settings/Contact_us";
+import settings from "./views/settings/Contact_us";
+import Activity_log from "./views/settings/activitylog/Activity_log";
 import "./sass/main.scss";
 
 function App() {
@@ -40,6 +43,7 @@ function App() {
             <Route exact path="/new_campaign" children={NewCampaign} />
             <Route exact path="/choose_template" component={ChooseTemplate} />
             <Route exact path="/Reports" children={Reports} />
+            <Route exact path="/settings" children={settings} />
             <Route exact path="/campaign_history" children={CampaignHistory} />
             <Route exact path="/topup" children={topup} />
             <Route
@@ -68,6 +72,9 @@ function App() {
             />
             <Route exact path="/card_usage" component={card_usage} />
             <Route exact path="/card_usage2" component={card_usage2} />
+            <Route exact path="/card_usageapexchart" component={ApexChartUi} />
+            <Route exact path="/Contact_us" component={Contact_us} />
+            <Route exact path="/Activity_log" component={Activity_log} />
           </Switch>
         </div>
       </Router>

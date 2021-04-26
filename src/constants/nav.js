@@ -66,6 +66,7 @@ const Menus = [
       { id: 1, name: "Campaign Report", link: "campaign_report" },
       { id: 2, name: "Billing History", link: "billing_history" },
       { id: 3, name: "Card Usage", link: "card_usage" },
+      { id: 4, name: "Card Usagechart", link: "card_usageapexchart" },
     ],
     icon: report,
   },
@@ -84,10 +85,10 @@ const Menus = [
   {
     id: 8,
     name: "Profile",
-    link: "profile_details",
+    link: "Contact_us",
     menus: [
-      { id: 1, name: "Profile Details", link: "profile_details" },
-      { id: 2, name: "Change Login", link: "chnage_login" },
+      { id: 1, name: "Contact Us", link: "Contact_us" },
+      { id: 2, name: "Activity Log", link: "Activity_log" },
       { id: 3, name: "Top Up Account", link: "top_up_account" },
       { id: 4, name: "Log Out", link: "log_out" },
       { id: 5, name: "Verification", link: "verification" },
