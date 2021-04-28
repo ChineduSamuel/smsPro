@@ -229,7 +229,7 @@
   height: 710px;
   width: 900px;
   left: 80px;
-  top: 350px;
+  top: 300px;
   border-radius: 2px;
   position: relative;
   background: #ffffff;
@@ -326,4 +326,97 @@
   border-radius: 50%;
   border: 1.5px solid #dfe0eb;
   //   z-index: 2000;
+}
+.sam_h4-200 {
+  height: 17px;
+  width: 122px;
+  left: 372px;
+  top: 458px;
+
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.003em;
+
+  /* Pop Up Box Colour - 2E3A59 */
+
+  color: #2e3a59;
+}
+
+.sam_activitlogp-01 {
+  height: 19px;
+  width: 789px;
+  left: 120px;
+  top: 110px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  z-index: 2000;
+
+  /* Sidebar Drops colour */
+
+  color: #455a64;
+}
+.sam_activitlogp-02 {
+  height: 49px;
+  width: 882px;
+  left: 120px;
+  top: 140px;
+  border-radius: undefinedpx;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  z-index: 2000;
+
+  /* Pop Up Box Colour - 2E3A59 */
+
+  color: #2e3a59;
+}
+.sam_activitlogp-03 {
+  height: 19px;
+  width: 789px;
+  left: 120px;
+  top: 170px;
+  position: absolute;
+
+  /* Body Title - 14pt Medium Roboto */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  letter-spacing: 0.003em;
+
+  /* Sidebar Drops colour */
+
+  color: #455a64;
+}
+.sam_activitlogp-04 {
+  height: 49px;
+  left: 120px;
+  top: 195px;
+
+  position: absolute;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Pop Up Box Colour - 2E3A59 */
+
+  color: #2e3a59;
 }

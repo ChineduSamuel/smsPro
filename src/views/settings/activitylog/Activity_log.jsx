@@ -60,8 +60,9 @@ function Activity_log() {
 
 
             <div class="card activitylog_container2">
-                <h4>@8 Nov 2020</h4>
-                <h4>@8 Nov 2020</h4>
+                <h4 className="sam_h4-200">8 Nov 2020</h4>
+                <p className="sam_activitlogp-01">Frank Samuel from the <strong>Marketing Team</strong>Just sent a <strong>New Campaign</strong>to <strong>346 Customers</strong></p>
+                <p className="sam_activitlogp-02">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                 <img src={arrowup} className="sam_activity_log_arrowup" />
                 <div class="card-body">
                     <img src={chrisimg} div className="sam_actlogchris-img" />
@@ -69,7 +70,11 @@ function Activity_log() {
 
                 <div class="card activitylog_container3">
                     <div class="card-body">
+                        <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
+                        <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                         <img src={chrisimg} div className="sam_actlogchris-img2" />
+                        <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
+                        <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                         <img src={chrisimg} div className="sam_actlogchris-img3" />
                     </div>
                 </div>
@@ -77,8 +82,14 @@ function Activity_log() {
                 <div class="card activitylog_container4">
 
                     <div class="card-body">
+                        <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
+                        <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
+                        <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
+                        <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                         <img src={chrisimg} div className="sam_actlogchris-img4" />
+
                         <img src={chrisimg} div className="sam_actlogchris-img5" />
+
 
                     </div>
                 </div>
