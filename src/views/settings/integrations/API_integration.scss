@@ -8,7 +8,7 @@
   position: relative;
   width: 1100.02px;
   height: 701.4px;
-  left: 32px;
+  left: 20px;
   top: 90px;
   background: #ffffff;
   border-radius: 2px;
@@ -22,4 +22,115 @@
   top: 40px;
   color: #2e3a59;
   transform: rotate(360deg);
+}
+.integration_btn {
+  position: absolute;
+  width: 126px;
+  height: 41px;
+  left: 60px;
+  top: 200px;
+
+  background: #291cdb;
+  border-radius: 3px;
+}
+
+.sam_apih3-1 {
+  height: 19px;
+  width: 257px;
+  left: 60px;
+  top: 35px;
+  border-radius: nullpx;
+  position: absolute;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+.sam_apih4-3 {
+  height: 19px;
+  width: 372px;
+  left: 60px;
+  top: 120px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+
+  /* Sidebar Drops colour */
+
+  color: #455a64;
+}
+.sam_apih4-4 {
+  position: absolute;
+  width: 94px;
+  height: 17px;
+  left: 15px;
+  top: 13px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sam_apih4-1 {
+  height: 19px;
+  width: 257px;
+  left: 150px;
+  top: 40px;
+  border-radius: nullpx;
+  position: absolute;
+
+  /* Home / Overview */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+
+.sam_apih4-2 {
+  height: 34px;
+  width: 771px;
+  left: 470px;
+  top: 40px;
+  position: absolute;
+
+  /* Home / Overview */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.3px;
+
+  /* grayscale / black */
+
+  color: #252733;
 }
