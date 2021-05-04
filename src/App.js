@@ -30,6 +30,7 @@ import ApexChartUi from "./views/Reports/card_usage2/card_usageapexchart";
 import Contact_us from "./views/settings/Contact_us";
 import settings from "./views/settings/Contact_us";
 import Activity_log from "./views/settings/activitylog/Activity_log";
+import API_integration from "./views/settings/integrations/API_integration";
 import "./sass/main.scss";
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
             <Route exact path="/card_usageapexchart" component={ApexChartUi} />
             <Route exact path="/Contact_us" component={Contact_us} />
             <Route exact path="/Activity_log" component={Activity_log} />
+            <Route exact path="/API_integration" component={API_integration} />
           </Switch>
         </div>
       </Router>

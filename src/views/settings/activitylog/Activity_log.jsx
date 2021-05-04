@@ -68,8 +68,8 @@ function Activity_log() {
                     <img src={chrisimg} div className="sam_actlogchris-img" />
                 </div>
 
-                <div class="card activitylog_container3">
-                    <div class="card-body">
+                <div className="card activitylog_container3">
+                    <div className="card-body">
                         <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
                         <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                         <img src={chrisimg} div className="sam_actlogchris-img2" />
@@ -79,9 +79,9 @@ function Activity_log() {
                     </div>
                 </div>
 
-                <div class="card activitylog_container4">
+                <div className="card activitylog_container4">
 
-                    <div class="card-body">
+                    <div className="card-body">
                         <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>
                         <p className="sam_activitlogp-04">Discount Offers: <br />"Ready to save big? save up to #5000 when you spend #30,000 or more between one week. Click here link to product page <br />to Browse through our new arrivals"</p>
                         <p className="sam_activitlogp-03">You just <strong>topped up #4,500 into your account with your </strong> <strong>billing card</strong> </p>

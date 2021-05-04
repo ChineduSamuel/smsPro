@@ -78,7 +78,7 @@ const Menus = [
       { id: 1, name: "Contact Us", link: "contact_us" },
       { id: 2, name: "Security", link: "security" },
       { id: 3, name: "Activity Log", link: "activity_log" },
-      { id: 4, name: "Integrations", link: "integrations" },
+      { id: 4, name: "Integrations", link: "API_integration" },
     ],
     icon: settings,
   },
