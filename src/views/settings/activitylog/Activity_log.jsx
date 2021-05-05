@@ -17,7 +17,7 @@ function Activity_log() {
             <h4 className="sam_cardusageh4-2">Home / Overview</h4>
             <div class="row">
 
-                <div class="col-sm-6">
+                <div className="col-sm-6">
                     <h4 className="sam_cardusageselctperiodh4-3">Select Usage Period</h4>
                     <div className="card sam_card_usage">
                         <div class="card-body">
@@ -26,7 +26,7 @@ function Activity_log() {
                     </div>
                 </div>
                 <form className="sam_card_usage_form1">
-                    <div class="form-row">
+                    <div className="form-row">
                         <div className="col sam_cardcol1">
                             <img src={calender} className="sam_cardusage_calender1"></img>
                             <h4 className="sam_cardusageselectdateh4">Select a date</h4>
